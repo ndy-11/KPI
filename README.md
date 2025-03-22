@@ -34,7 +34,7 @@ npm install  # atau pip install jika berbasis Python
 npm start  # atau python app.py jika berbasis Python
 ```
 ### 4. Mengakses Dashboard
-``
+`
       - Buka browser dan akses http://localhost:3000 (atau port yang dikonfigurasi).
 ## Formula Perhitungan KPI
 KPI dihitung berdasarkan bobot berikut:
