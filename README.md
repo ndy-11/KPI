@@ -18,7 +18,7 @@ You will also see any lint errors in the console.
 
 ## Cara Menggunakan
 
-```sh`
+```sh
 npm install
 
 ## `npm run build`
