@@ -25,17 +25,15 @@ cd kpi-app
 npm install  # atau pip install jika berbasis Python
 ```
 ### 2. Konfigurasi
-``
       - Pastikan database telah dikonfigurasi dengan benar.
       - Sesuaikan parameter KPI sesuai kebijakan perusahaan.
-      
 ### 3. Menjalankan Aplikasi
 ```sh
 npm start  # atau python app.py jika berbasis Python
 ```
 ### 4. Mengakses Dashboard
-`
-      - Buka browser dan akses http://localhost:3000 (atau port yang dikonfigurasi).
+``
+      - Buka browser dan akses `http://localhost:3000` (atau port yang dikonfigurasi).
 ## Formula Perhitungan KPI
 KPI dihitung berdasarkan bobot berikut:
   - **Absensi**: 40%
