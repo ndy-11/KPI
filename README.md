@@ -3,18 +3,19 @@
 ## Deskripsi
 
 Aplikasi KPI ini dirancang untuk menghitung Key Performance Indicator (KPI) karyawan berdasarkan tiga faktor utama:
+
   1. **Absensi** : Kehadiran karyawan dalam jam kerja.
   2. **Tugas yang Diselesaikan** : Jumlah dan kualitas tugas yang telah dikerjakan.
   3. **Rapat** : Partisipasi dalam rapat yang dijadwalkan.
+
 Dengan aplikasi ini, perusahaan dapat secara objektif menilai kinerja karyawan dan mengoptimalkan produktivitas tim.
 
 ## Fitur
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  - **Manajemen Absensi**: Pencatatan kehadiran karyawan secara otomatis atau manual.
+  - **Pelacakan Tugas**: Menghitung jumlah tugas yang diselesaikan dalam periode tertentu.
+  - **Analisis Partisipasi Rapat**: Memonitor kehadiran karyawan dalam rapat.
+  - **Perhitungan KPI Otomatis**: Menggunakan formula tertentu untuk menghasilkan skor KPI.
+  - **Dashboard Visualisasi**: Menampilkan KPI karyawan dalam bentuk grafik dan laporan.
 
 ## Cara Menggunakan
 ### 1. Instalasi
@@ -24,6 +25,7 @@ cd kpi-app
 npm install  # atau pip install jika berbasis Python
 ```
 ### 2. Konfigurasi
+``
       - Pastikan database telah dikonfigurasi dengan benar.
       - Sesuaikan parameter KPI sesuai kebijakan perusahaan.
       
@@ -32,6 +34,7 @@ npm install  # atau pip install jika berbasis Python
 npm start  # atau python app.py jika berbasis Python
 ```
 ### 4. Mengakses Dashboard
+``
       - Buka browser dan akses http://localhost:3000 (atau port yang dikonfigurasi).
 ## Formula Perhitungan KPI
 KPI dihitung berdasarkan bobot berikut:
@@ -53,5 +56,3 @@ KPI = (Absensi * 0.4) + (Tugas * 0.4) + (Rapat * 0.2)
 
 ## Lisensi
 Aplikasi ini dilisensikan di bawah MIT License.
-
-# KPI
