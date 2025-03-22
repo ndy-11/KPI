@@ -1,12 +1,14 @@
-# Getting Started with Create React App
+# Aplikasi KPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deskripsi
 
-## Available Scripts
+Aplikasi KPI ini dirancang untuk menghitung Key Performance Indicator (KPI) karyawan berdasarkan tiga faktor utama:
+  1. **Absensi** : Kehadiran karyawan dalam jam kerja.
+  2. **Tugas yang Diselesaikan** : Jumlah dan kualitas tugas yang telah dikerjakan.
+  3. **Rapat** : Partisipasi dalam rapat yang dijadwalkan.
+Dengan aplikasi ini, perusahaan dapat secara objektif menilai kinerja karyawan dan mengoptimalkan produktivitas tim.
 
-In the project directory, you can run:
-
-### `npm start`
+## Fitur
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +16,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+## Cara Menggunakan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh`
+npm install
 
-### `npm run build`
+## `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
