@@ -17,33 +17,41 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## Cara Menggunakan
-
+### 1. Instalasi
 ```sh
-npm install
+git clone https://github.com/username/kpi-app.git
+cd kpi-app
+npm install  # atau pip install jika berbasis Python
+```
+### 2. Konfigurasi
+      - Pastikan database telah dikonfigurasi dengan benar.
+      - Sesuaikan parameter KPI sesuai kebijakan perusahaan.
+      
+### 3. Menjalankan Aplikasi
+```sh
+npm start  # atau python app.py jika berbasis Python
+```
+### 4. Mengakses Dashboard
+      - Buka browser dan akses http://localhost:3000 (atau port yang dikonfigurasi).
+## Formula Perhitungan KPI
+KPI dihitung berdasarkan bobot berikut:
+  - **Absensi**: 40%
+  - **Tugas yang Diselesaikan**: 40%
+  - **Rapat**: 20%
 
-## `npm run build`
+Formula:
+```sh
+KPI = (Absensi * 0.4) + (Tugas * 0.4) + (Rapat * 0.2)
+```
+## Teknologi yang Digunakan
+  - Backend: Node.js
+  - Frontend: React.js
+  - Database: MongoDB
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Kontribusi
+  Silakan lakukan fork dan pull request jika ingin berkontribusi dalam pengembangan aplikasi ini.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Lisensi
+Aplikasi ini dilisensikan di bawah MIT License.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 # KPI
