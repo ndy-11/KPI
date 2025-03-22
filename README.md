@@ -26,7 +26,7 @@ npm install  # atau pip install jika berbasis Python
 ```
 ### 2. Konfigurasi
 - Pastikan database telah dikonfigurasi dengan benar.
-- - Sesuaikan parameter KPI sesuai kebijakan perusahaan.
+- Sesuaikan parameter KPI sesuai kebijakan perusahaan.
 ### 3. Menjalankan Aplikasi
 ```sh
 npm start  # atau python app.py jika berbasis Python
